@@ -1,0 +1,4402 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Product1",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P002",
+    "name": "Product2",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P003",
+    "name": "Product3",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 168,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P004",
+    "name": "Product4",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P005",
+    "name": "Product5",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P006",
+    "name": "Product6",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 178,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P007",
+    "name": "Product7",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P008",
+    "name": "Product8",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P009",
+    "name": "Product9",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 167,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P010",
+    "name": "Product10",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 178,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P011",
+    "name": "Product11",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 170,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P012",
+    "name": "Product12",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 86,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 90,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 94,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 98,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 102,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P013",
+    "name": "Product13",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P014",
+    "name": "Product14",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 167,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P015",
+    "name": "Product15",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P016",
+    "name": "Product16",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P017",
+    "name": "Product17",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P018",
+    "name": "Product18",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P019",
+    "name": "Product19",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P020",
+    "name": "Product20",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P021",
+    "name": "Product21",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P022",
+    "name": "Product22",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 167,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P023",
+    "name": "Product23",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P024",
+    "name": "Product24",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 174,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P025",
+    "name": "Product25",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P026",
+    "name": "Product26",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P027",
+    "name": "Product27",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 83,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 87,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 91,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 95,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 99,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P028",
+    "name": "Product28",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 83,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 87,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 91,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 95,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 99,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 168,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P029",
+    "name": "Product29",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 180,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P030",
+    "name": "Product30",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P031",
+    "name": "Product31",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P032",
+    "name": "Product32",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P033",
+    "name": "Product33",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P034",
+    "name": "Product34",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P035",
+    "name": "Product35",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P036",
+    "name": "Product36",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P037",
+    "name": "Product37",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P038",
+    "name": "Product38",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P039",
+    "name": "Product39",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 178,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P040",
+    "name": "Product40",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P041",
+    "name": "Product41",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P042",
+    "name": "Product42",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 168,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P043",
+    "name": "Product43",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P044",
+    "name": "Product44",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P045",
+    "name": "Product45",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P046",
+    "name": "Product46",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P047",
+    "name": "Product47",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 83,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 87,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 91,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 95,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 99,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P048",
+    "name": "Product48",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P049",
+    "name": "Product49",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 165,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P050",
+    "name": "Product50",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P051",
+    "name": "Product51",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P052",
+    "name": "Product52",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P053",
+    "name": "Product53",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 90,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 94,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 98,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 102,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 106,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P054",
+    "name": "Product54",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P055",
+    "name": "Product55",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P056",
+    "name": "Product56",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P057",
+    "name": "Product57",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 180,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P058",
+    "name": "Product58",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 86,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 90,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 94,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 98,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 102,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P059",
+    "name": "Product59",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 165,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P060",
+    "name": "Product60",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P061",
+    "name": "Product61",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P062",
+    "name": "Product62",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P063",
+    "name": "Product63",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P064",
+    "name": "Product64",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P065",
+    "name": "Product65",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P066",
+    "name": "Product66",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 166,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P067",
+    "name": "Product67",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 174,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P068",
+    "name": "Product68",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 86,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 90,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 94,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 98,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 102,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P069",
+    "name": "Product69",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P070",
+    "name": "Product70",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P071",
+    "name": "Product71",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P072",
+    "name": "Product72",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 83,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 87,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 91,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 95,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 99,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P073",
+    "name": "Product73",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P074",
+    "name": "Product74",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P075",
+    "name": "Product75",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 166,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P076",
+    "name": "Product76",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 178,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P077",
+    "name": "Product77",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 165,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P078",
+    "name": "Product78",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 180,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P079",
+    "name": "Product79",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 174,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P080",
+    "name": "Product80",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P081",
+    "name": "Product81",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P082",
+    "name": "Product82",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P083",
+    "name": "Product83",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "L"
+    }
+  },
+  {
+    "product_id": "P084",
+    "name": "Product84",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P085",
+    "name": "Product85",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 86,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 90,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 94,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 98,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 102,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P086",
+    "name": "Product86",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 171,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P087",
+    "name": "Product87",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 85,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 89,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 93,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 97,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 101,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Polyester",
+    "model_reference": {
+      "height_cm": 178,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P088",
+    "name": "Product88",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 165,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P089",
+    "name": "Product89",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 88,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 92,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 96,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 100,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 104,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P090",
+    "name": "Product90",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 87,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 91,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 95,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 99,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 103,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Cotton",
+    "model_reference": {
+      "height_cm": 167,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P091",
+    "name": "Product91",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 170,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P092",
+    "name": "Product92",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 83,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 87,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 91,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 95,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 99,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 173,
+      "wearing_size": "S"
+    }
+  },
+  {
+    "product_id": "P093",
+    "name": "Product93",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 175,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P094",
+    "name": "Product94",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 81,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 85,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 89,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 93,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 97,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Oversized",
+    "fabric": "Blend",
+    "model_reference": {
+      "height_cm": 177,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P095",
+    "name": "Product95",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 89,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 93,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 97,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 101,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 105,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 179,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P096",
+    "name": "Product96",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Tailored",
+    "fabric": "Wool",
+    "model_reference": {
+      "height_cm": 169,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P097",
+    "name": "Product97",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 80,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 84,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 88,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 92,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 96,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Slim",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 172,
+      "wearing_size": "XS"
+    }
+  },
+  {
+    "product_id": "P098",
+    "name": "Product98",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 84,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 165,
+      "wearing_size": "M"
+    }
+  },
+  {
+    "product_id": "P099",
+    "name": "Product99",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 165,
+      "wearing_size": "XL"
+    }
+  },
+  {
+    "product_id": "P100",
+    "name": "Product100",
+    "available_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "size_chart": {
+      "XS": {
+        "bust_cm": 82,
+        "waist_cm": 64,
+        "hips_cm": 88
+      },
+      "S": {
+        "bust_cm": 86,
+        "waist_cm": 68,
+        "hips_cm": 92
+      },
+      "M": {
+        "bust_cm": 90,
+        "waist_cm": 72,
+        "hips_cm": 96
+      },
+      "L": {
+        "bust_cm": 94,
+        "waist_cm": 76,
+        "hips_cm": 100
+      },
+      "XL": {
+        "bust_cm": 98,
+        "waist_cm": 80,
+        "hips_cm": 104
+      }
+    },
+    "fit": "Regular",
+    "fabric": "Linen",
+    "model_reference": {
+      "height_cm": 176,
+      "wearing_size": "M"
+    }
+  }
+]

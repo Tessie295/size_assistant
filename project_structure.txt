@@ -1,0 +1,188 @@
+📁 ESTRUCTURA DEL PROYECTO - ASISTENTE DE TALLAS
+========================================================
+
+sizing-chatbot/
+│
+├── 📄 app.py                           # Aplicación Streamlit principal
+├── 📄 requirements.txt                 # Dependencias del proyecto
+├── 📄 setup.py                        # Script de configuración automática
+├── 📄 run.py                          # Script para ejecutar la aplicación
+├── 📄 .env.example                    # Ejemplo de configuración de entorno
+├── 📄 README.md                       # Documentación completa
+│
+├── 📂 data/                           # 📊 DATOS DEL SISTEMA
+│   ├── client_profiles.json           # Perfiles de clientes (copiar aquí)
+│   ├── product_catalog.json           # Catálogo de productos (copiar aquí)
+│   └── __init__.py                    # Paquete Python
+│
+├── 📂 models/                         # 🏗️ MODELOS DE DATOS
+│   ├── __init__.py                    # Paquete Python
+│   └── data_models.py                 # Clases: Client, Product, SizeRecommendation
+│
+├── 📂 engine/                         # ⚙️ MOTOR DE RECOMENDACIONES
+│   ├── __init__.py                    # Paquete Python
+│   └── size_recommendation_engine.py  # Algoritmo principal de recomendaciones
+│
+├── 📂 services/                       # 🔧 SERVICIOS DEL SISTEMA
+│   ├── __init__.py                    # Paquete Python
+│   ├── llm_service.py                 # Integración con OpenAI GPT
+│   ├── rag_service.py                 # Servicio RAG (búsqueda de contexto)
+│   └── conversation_manager.py        # Gestión de memoria conversacional
+│
+└── 📂 core/                          # 🧠 NÚCLEO DEL CHATBOT
+    ├── __init__.py                    # Paquete Python
+    └── chatbot.py                     # Clase principal SizingChatbot
+
+
+🔄 FLUJO DE DATOS Y PROCESAMIENTO
+==================================
+
+1. 📱 ENTRADA DEL USUARIO (app.py)
+   └── Streamlit recibe mensaje del usuario
+
+2. 🧠 NÚCLEO DEL CHATBOT (core/chatbot.py)
+   ├── Coordina todos los servicios
+   └── Procesa mensaje y genera respuesta
+
+3. 🔍 ANÁLISIS RAG (services/rag_service.py)
+   ├── Parsea consulta del usuario
+   ├── Identifica entidades (clientes, productos)
+   ├── Determina intención (recomendación, búsqueda, ayuda)
+   └── Recupera contexto relevante
+
+4. 📊 CARGA DE DATOS (data/data_loader.py)
+   ├── Carga perfiles de clientes
+   ├── Carga catálogo de productos
+   └── Proporciona búsquedas y filtros
+
+5. ⚙️ MOTOR DE RECOMENDACIONES (engine/size_recommendation_engine.py)
+   ├── Analiza medidas corporales vs tabla de tallas
+   ├── Considera historial de compras previo
+   ├── Aplica preferencias de ajuste
+   └── Genera recomendación con confianza
+
+6. 🤖 SERVICIO LLM (services/llm_service.py)
+   ├── Formatea contexto para GPT
+   ├── Genera respuesta natural
+   └── Incluye justificaciones y consejos
+
+7. 💭 GESTIÓN DE CONVERSACIÓN (services/conversation_manager.py)
+   ├── Mantiene historial de turnos
+   ├── Gestiona contexto de sesión
+   └── Proporciona memoria entre mensajes
+
+8. 📱 RESPUESTA AL USUARIO (app.py)
+   └── Streamlit muestra respuesta formateada
+
+
+🎯 COMPONENTES CLAVE
+====================
+
+🏗️ MODELOS DE DATOS:
+├── Client: Perfil completo del cliente
+├── Product: Información del producto
+├── SizeRecommendation: Resultado de recomendación
+└── BodyMeasurements: Medidas corporales
+
+⚙️ MOTOR DE RECOMENDACIONES:
+├── Análisis de medidas (60% peso)
+├── Historial de compras (25% peso)
+├── Preferencias de ajuste (15% peso)
+└── Algoritmo de scoring multi-factor
+
+🔍 SERVICIO RAG:
+├── Parser de consultas con regex
+├── Extracción de entidades
+├── Búsqueda por similitud
+└── Ranking de relevancia
+
+🤖 SERVICIO LLM:
+├── Templates de prompts especializados
+├── Formateo de contexto
+├── Generación de respuestas naturales
+└── Manejo de errores
+
+💭 GESTIÓN DE CONVERSACIÓN:
+├── Sesiones con UUID único
+├── Turnos con timestamp
+├── Contexto persistente
+└── Memoria limitada (configurable)
+
+
+📋 INSTRUCCIONES DE CONFIGURACIÓN
+=================================
+
+1. PREPARAR ENTORNO:
+   pip install -r requirements.txt
+
+2. CONFIGURAR API KEY:
+   cp .env.example .env
+   # Editar .env con tu API key de OpenAI
+
+3. COPIAR DATOS:
+   # Copiar client_profiles.json a data/
+   # Copiar product_catalog.json a data/
+
+4. EJECUTAR CONFIGURACIÓN:
+   python setup.py
+
+5. INICIAR APLICACIÓN:
+   python run.py
+   # o
+   streamlit run app.py
+
+
+🧪 PRUEBAS Y VALIDACIÓN
+========================
+
+El script setup.py incluye:
+├── ✅ Verificación de estructura de directorios
+├── ✅ Validación de dependencias
+├── ✅ Comprobación de archivos de datos
+├── ✅ Verificación de configuración .env
+├── ✅ Prueba de funcionalidad básica
+└── ✅ Creación de scripts de ejecución
+
+
+🔧 PERSONALIZACIÓN
+==================
+
+Para adaptar el sistema:
+
+1. ALGORITMO DE RECOMENDACIÓN:
+   Editar: engine/size_recommendation_engine.py
+   - Ajustar pesos de factores
+   - Modificar función de scoring
+   - Añadir nuevos criterios
+
+2. PROMPTS DEL LLM:
+   Editar: services/llm_service.py
+   - Personalizar system_prompt
+   - Modificar templates de respuesta
+   - Ajustar parámetros del modelo
+
+3. LÓGICA RAG:
+   Editar: services/rag_service.py
+   - Añadir nuevos patrones de extracción
+   - Modificar algoritmos de búsqueda
+   - Personalizar ranking de relevancia
+
+4. INTERFAZ DE USUARIO:
+   Editar: app.py
+   - Modificar diseño CSS
+   - Añadir nuevas funcionalidades
+   - Personalizar layout
+
+
+🚀 EXTENSIONES FUTURAS
+======================
+
+Próximas funcionalidades a implementar:
+├── 🌐 API REST para integración externa
+├── 🗄️ Base de datos en lugar de JSON
+├── 🔐 Sistema de autenticación
+├── 📊 Dashboard de analytics
+├── 🌍 Soporte multiidioma
+├── 📸 Análisis de imágenes
+├── 🔄 Sistema de feedback automático
+└── 🤖 Integración con más modelos LLM
