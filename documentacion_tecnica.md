@@ -1,6 +1,6 @@
 # Documentación Técnica: Asistente Inteligente de Tallas
 
-## 1. Descripción de la Arquitectura
+## Descripción de la Arquitectura
 
 ### Arquitectura General
 El sistema implementa una arquitectura **RAG (Retrieval-Augmented Generation)** modular que combina un motor de recomendaciones técnico con capacidades conversacionales de LLM. La arquitectura se compone de cinco capas principales:
