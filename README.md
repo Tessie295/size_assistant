@@ -17,8 +17,6 @@ sizing-chatbot/
 │
 ├── 📄 app.py                 # Aplicación Streamlit principal
 ├── 📄 requirements.txt       # Dependencias del proyecto
-├── 📄 setup.py              # Script de configuración
-├── 📄 run.py                # Script para ejecutar la app
 ├── 📄 .env.example          # Ejemplo de configuración
 │
 ├── 📂 data/                 # Datos del sistema
@@ -45,7 +43,7 @@ sizing-chatbot/
 ### 1. Clona el repositorio
 ```bash
 git clone <tu-repositorio>
-cd sizing-chatbot
+cd size_assistant
 ```
 
 ### 2. Instala las dependencias
@@ -61,19 +59,8 @@ cp .env.example .env
 # Edita .env y añade tu API key
 OPENAI_API_KEY=tu_api_key_aqui
 ```
-
-### 4. Copia los archivos de datos
-Coloca los archivos `client_profiles.json` y `product_catalog.json` en la carpeta `data/`.
-
-### 5. Ejecuta la configuración automática
+### 4. Inicia la aplicación
 ```bash
-python setup.py
-```
-
-### 6. Inicia la aplicación
-```bash
-python run.py
-# o
 streamlit run app.py
 ```
 
@@ -163,58 +150,3 @@ El archivo `engine/size_recommendation_engine.py` permite ajustar:
 - Pesos de los factores de recomendación
 - Algoritmos de similitud
 - Criterios de confianza
-
-## 🧪 Pruebas
-
-Para probar el sistema:
-
-```bash
-# Ejecutar configuración y pruebas
-python setup.py
-
-# Probar funcionalidad específica
-python -c "from core.chatbot import SizingChatbot; bot = SizingChatbot(); print('✅ OK' if bot.is_initialized else '❌ Error')"
-```
-
-## 📈 Extensiones Futuras
-
-- [ ] **Soporte multiidioma**
-- [ ] **Integración con más LLMs** (Hugging Face, Claude)
-- [ ] **Análisis de imágenes** para estimación de medidas
-- [ ] **Sistema de feedback** para mejorar recomendaciones
-- [ ] **API REST** para integración externa
-- [ ] **Base de datos** en lugar de archivos JSON
-- [ ] **Autenticación de usuarios**
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Frontend**: Streamlit
-- **LLM**: OpenAI GPT-3.5-turbo
-- **ML/Analysis**: NumPy, Scikit-learn
-- **Data**: Pandas, JSON
-- **Architecture**: RAG (Retrieval-Augmented Generation)
-
-## 📝 Contribución
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -am 'Añade nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
-## 🆘 Soporte
-
-Si encuentras problemas:
-
-1. **Revisa la configuración**: Ejecuta `python setup.py`
-2. **Verifica la API key**: Asegúrate de que tu API key de OpenAI esté configurada
-3. **Consulta los logs**: Streamlit muestra errores detallados en la consola
-4. **Abre un issue**: Describe el problema con detalles del error
-
----
-
-**¡Desarrollado con ❤️ para hacer que encontrar la talla perfecta sea fácil!**
