@@ -1,0 +1,342 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Camiseta Básica de Algodón",
+    "category": "camisetas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 86, "waist_cm": 70, "length_cm": 58},
+      "S": {"bust_cm": 90, "waist_cm": 74, "length_cm": 60},
+      "M": {"bust_cm": 94, "waist_cm": 78, "length_cm": 62},
+      "L": {"bust_cm": 98, "waist_cm": 82, "length_cm": 64},
+      "XL": {"bust_cm": 102, "waist_cm": 86, "length_cm": 66}
+    },
+    "fit": "Regular",
+    "fabric": "Algodón 100%",
+    "model_reference": {"height_cm": 175, "wearing_size": "M"},
+    "colors": ["blanco", "negro", "gris", "azul marino"]
+  },
+  {
+    "product_id": "P002",
+    "name": "Pantalón Vaquero Slim",
+    "category": "pantalones",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 66, "hips_cm": 88, "inseam_cm": 76, "length_cm": 100},
+      "S": {"waist_cm": 70, "hips_cm": 92, "inseam_cm": 78, "length_cm": 102},
+      "M": {"waist_cm": 74, "hips_cm": 96, "inseam_cm": 80, "length_cm": 104},
+      "L": {"waist_cm": 78, "hips_cm": 100, "inseam_cm": 82, "length_cm": 106},
+      "XL": {"waist_cm": 82, "hips_cm": 104, "inseam_cm": 84, "length_cm": 108}
+    },
+    "fit": "Slim",
+    "fabric": "Denim 98% Algodón, 2% Elastano",
+    "model_reference": {"height_cm": 178, "wearing_size": "S"},
+    "colors": ["azul claro", "azul oscuro", "negro"]
+  },
+  {
+    "product_id": "P003",
+    "name": "Falda Midi Plisada",
+    "category": "faldas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 64, "hips_cm": 88, "length_cm": 65},
+      "S": {"waist_cm": 68, "hips_cm": 92, "length_cm": 66},
+      "M": {"waist_cm": 72, "hips_cm": 96, "length_cm": 67},
+      "L": {"waist_cm": 76, "hips_cm": 100, "length_cm": 68},
+      "XL": {"waist_cm": 80, "hips_cm": 104, "length_cm": 69}
+    },
+    "fit": "Regular",
+    "fabric": "Poliéster 100%",
+    "model_reference": {"height_cm": 170, "wearing_size": "M"},
+    "colors": ["negro", "gris", "beige", "azul marino"]
+  },
+  {
+    "product_id": "P004",
+    "name": "Vestido Maxi Floral",
+    "category": "vestidos",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 84, "waist_cm": 66, "hips_cm": 90, "length_cm": 140},
+      "S": {"bust_cm": 88, "waist_cm": 70, "hips_cm": 94, "length_cm": 142},
+      "M": {"bust_cm": 92, "waist_cm": 74, "hips_cm": 98, "length_cm": 144},
+      "L": {"bust_cm": 96, "waist_cm": 78, "hips_cm": 102, "length_cm": 146},
+      "XL": {"bust_cm": 100, "waist_cm": 82, "hips_cm": 106, "length_cm": 148}
+    },
+    "fit": "Holgado",
+    "fabric": "Viscosa 95%, Elastano 5%",
+    "model_reference": {"height_cm": 175, "wearing_size": "S"},
+    "colors": ["estampado floral azul", "estampado floral rosa"]
+  },
+  {
+    "product_id": "P005",
+    "name": "Blusa de Seda",
+    "category": "blusas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 88, "waist_cm": 72, "length_cm": 62},
+      "S": {"bust_cm": 92, "waist_cm": 76, "length_cm": 63},
+      "M": {"bust_cm": 96, "waist_cm": 80, "length_cm": 64},
+      "L": {"waist_cm": 84, "bust_cm": 100, "length_cm": 65},
+      "XL": {"bust_cm": 104, "waist_cm": 88, "length_cm": 66}
+    },
+    "fit": "Entallado",
+    "fabric": "Seda 100%",
+    "model_reference": {"height_cm": 172, "wearing_size": "M"},
+    "colors": ["blanco", "crema", "azul cielo", "rosa pálido"]
+  },
+  {
+    "product_id": "P006",
+    "name": "Sudadera con Capucha",
+    "category": "sudaderas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 96, "waist_cm": 80, "length_cm": 60},
+      "S": {"bust_cm": 100, "waist_cm": 84, "length_cm": 62},
+      "M": {"bust_cm": 104, "waist_cm": 88, "length_cm": 64},
+      "L": {"bust_cm": 108, "waist_cm": 92, "length_cm": 66},
+      "XL": {"bust_cm": 112, "waist_cm": 96, "length_cm": 68}
+    },
+    "fit": "Oversized",
+    "fabric": "Algodón 80%, Poliéster 20%",
+    "model_reference": {"height_cm": 168, "wearing_size": "S"},
+    "colors": ["gris melange", "negro", "blanco", "rosa"]
+  },
+  {
+    "product_id": "P007",
+    "name": "Pantalón de Pinzas",
+    "category": "pantalones",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 64, "hips_cm": 86, "inseam_cm": 74, "length_cm": 98},
+      "S": {"waist_cm": 68, "hips_cm": 90, "inseam_cm": 75, "length_cm": 99},
+      "M": {"waist_cm": 72, "hips_cm": 94, "inseam_cm": 76, "length_cm": 100},
+      "L": {"waist_cm": 76, "hips_cm": 98, "inseam_cm": 77, "length_cm": 101},
+      "XL": {"waist_cm": 80, "hips_cm": 102, "inseam_cm": 78, "length_cm": 102}
+    },
+    "fit": "Entallado",
+    "fabric": "Lana 70%, Poliéster 30%",
+    "model_reference": {"height_cm": 176, "wearing_size": "M"},
+    "colors": ["negro", "gris antracita", "beige"]
+  },
+  {
+    "product_id": "P008",
+    "name": "Falda Lápiz",
+    "category": "faldas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 62, "hips_cm": 84, "length_cm": 55},
+      "S": {"waist_cm": 66, "hips_cm": 88, "length_cm": 56},
+      "M": {"waist_cm": 70, "hips_cm": 92, "length_cm": 57},
+      "L": {"waist_cm": 74, "hips_cm": 96, "length_cm": 58},
+      "XL": {"waist_cm": 78, "hips_cm": 100, "length_cm": 59}
+    },
+    "fit": "Ajustado",
+    "fabric": "Poliéster 95%, Elastano 5%",
+    "model_reference": {"height_cm": 174, "wearing_size": "S"},
+    "colors": ["negro", "azul marino", "gris"]
+  },
+  {
+    "product_id": "P009",
+    "name": "Vestido Camisero",
+    "category": "vestidos",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 86, "waist_cm": 68, "hips_cm": 88, "length_cm": 95},
+      "S": {"bust_cm": 90, "waist_cm": 72, "hips_cm": 92, "length_cm": 96},
+      "M": {"bust_cm": 94, "waist_cm": 76, "hips_cm": 96, "length_cm": 97},
+      "L": {"bust_cm": 98, "waist_cm": 80, "hips_cm": 100, "length_cm": 98},
+      "XL": {"bust_cm": 102, "waist_cm": 84, "hips_cm": 104, "length_cm": 99}
+    },
+    "fit": "Regular",
+    "fabric": "Algodón 100%",
+    "model_reference": {"height_cm": 170, "wearing_size": "M"},
+    "colors": ["blanco", "azul claro", "rayas azul y blanco"]
+  },
+  {
+    "product_id": "P010",
+    "name": "Camiseta de Manga Larga",
+    "category": "camisetas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 84, "waist_cm": 68, "length_cm": 60, "sleeve_cm": 58},
+      "S": {"bust_cm": 88, "waist_cm": 72, "length_cm": 61, "sleeve_cm": 59},
+      "M": {"bust_cm": 92, "waist_cm": 76, "length_cm": 62, "sleeve_cm": 60},
+      "L": {"bust_cm": 96, "waist_cm": 80, "length_cm": 63, "sleeve_cm": 61},
+      "XL": {"bust_cm": 100, "waist_cm": 84, "length_cm": 64, "sleeve_cm": 62}
+    },
+    "fit": "Ajustado",
+    "fabric": "Modal 95%, Elastano 5%",
+    "model_reference": {"height_cm": 173, "wearing_size": "S"},
+    "colors": ["negro", "blanco", "gris melange", "burdeos"]
+  },
+  {
+    "product_id": "P011",
+    "name": "Chaqueta Blazer",
+    "category": "chaquetas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 88, "waist_cm": 70, "length_cm": 68, "sleeve_cm": 60},
+      "S": {"bust_cm": 92, "waist_cm": 74, "length_cm": 69, "sleeve_cm": 61},
+      "M": {"bust_cm": 96, "waist_cm": 78, "length_cm": 70, "sleeve_cm": 62},
+      "L": {"bust_cm": 100, "waist_cm": 82, "length_cm": 71, "sleeve_cm": 63},
+      "XL": {"bust_cm": 104, "waist_cm": 86, "length_cm": 72, "sleeve_cm": 64}
+    },
+    "fit": "Entallado",
+    "fabric": "Poliéster 65%, Viscosa 35%",
+    "model_reference": {"height_cm": 175, "wearing_size": "M"},
+    "colors": ["negro", "azul marino", "gris", "blanco"]
+  },
+  {
+    "product_id": "P012",
+    "name": "Pantalón Deportivo",
+    "category": "pantalones",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 68, "hips_cm": 90, "inseam_cm": 76, "length_cm": 98},
+      "S": {"waist_cm": 72, "hips_cm": 94, "inseam_cm": 77, "length_cm": 99},
+      "M": {"waist_cm": 76, "hips_cm": 98, "inseam_cm": 78, "length_cm": 100},
+      "L": {"waist_cm": 80, "hips_cm": 102, "inseam_cm": 79, "length_cm": 101},
+      "XL": {"waist_cm": 84, "hips_cm": 106, "inseam_cm": 80, "length_cm": 102}
+    },
+    "fit": "Holgado",
+    "fabric": "Algodón 90%, Elastano 10%",
+    "model_reference": {"height_cm": 172, "wearing_size": "S"},
+    "colors": ["gris", "negro", "azul marino"]
+  },
+  {
+    "product_id": "P013",
+    "name": "Top Crop",
+    "category": "tops",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 82, "waist_cm": 66, "length_cm": 42},
+      "S": {"bust_cm": 86, "waist_cm": 70, "length_cm": 43},
+      "M": {"bust_cm": 90, "waist_cm": 74, "length_cm": 44},
+      "L": {"bust_cm": 94, "waist_cm": 78, "length_cm": 45},
+      "XL": {"bust_cm": 98, "waist_cm": 82, "length_cm": 46}
+    },
+    "fit": "Ajustado",
+    "fabric": "Algodón 95%, Elastano 5%",
+    "model_reference": {"height_cm": 168, "wearing_size": "S"},
+    "colors": ["blanco", "negro", "rosa", "amarillo"]
+  },
+  {
+    "product_id": "P014",
+    "name": "Vestido de Cóctel",
+    "category": "vestidos",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 82, "waist_cm": 64, "hips_cm": 86, "length_cm": 90},
+      "S": {"bust_cm": 86, "waist_cm": 68, "hips_cm": 90, "length_cm": 91},
+      "M": {"bust_cm": 90, "waist_cm": 72, "hips_cm": 94, "length_cm": 92},
+      "L": {"bust_cm": 94, "waist_cm": 76, "hips_cm": 98, "length_cm": 93},
+      "XL": {"bust_cm": 98, "waist_cm": 80, "hips_cm": 102, "length_cm": 94}
+    },
+    "fit": "Entallado",
+    "fabric": "Poliéster 100%",
+    "model_reference": {"height_cm": 176, "wearing_size": "S"},
+    "colors": ["negro", "azul noche", "burdeos", "verde esmeralda"]
+  },
+  {
+    "product_id": "P015",
+    "name": "Cárdigan de Punto",
+    "category": "cardigans",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 90, "waist_cm": 74, "length_cm": 65, "sleeve_cm": 58},
+      "S": {"bust_cm": 94, "waist_cm": 78, "length_cm": 66, "sleeve_cm": 59},
+      "M": {"bust_cm": 98, "waist_cm": 82, "length_cm": 67, "sleeve_cm": 60},
+      "L": {"bust_cm": 102, "waist_cm": 86, "length_cm": 68, "sleeve_cm": 61},
+      "XL": {"bust_cm": 106, "waist_cm": 90, "length_cm": 69, "sleeve_cm": 62}
+    },
+    "fit": "Regular",
+    "fabric": "Acrílico 70%, Lana 30%",
+    "model_reference": {"height_cm": 171, "wearing_size": "M"},
+    "colors": ["beige", "gris", "azul marino", "crema"]
+  },
+  {
+    "product_id": "P016",
+    "name": "Shorts de Mezclilla",
+    "category": "shorts",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 64, "hips_cm": 86, "inseam_cm": 10, "length_cm": 32},
+      "S": {"waist_cm": 68, "hips_cm": 90, "inseam_cm": 11, "length_cm": 33},
+      "M": {"waist_cm": 72, "hips_cm": 94, "inseam_cm": 12, "length_cm": 34},
+      "L": {"waist_cm": 76, "hips_cm": 98, "inseam_cm": 13, "length_cm": 35},
+      "XL": {"waist_cm": 80, "hips_cm": 102, "inseam_cm": 14, "length_cm": 36}
+    },
+    "fit": "Regular",
+    "fabric": "Denim 100% Algodón",
+    "model_reference": {"height_cm": 169, "wearing_size": "S"},
+    "colors": ["azul claro", "azul medio", "negro"]
+  },
+  {
+    "product_id": "P017",
+    "name": "Falda Mini",
+    "category": "faldas",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 62, "hips_cm": 82, "length_cm": 38},
+      "S": {"waist_cm": 66, "hips_cm": 86, "length_cm": 39},
+      "M": {"waist_cm": 70, "hips_cm": 90, "length_cm": 40},
+      "L": {"waist_cm": 74, "hips_cm": 94, "length_cm": 41},
+      "XL": {"waist_cm": 78, "hips_cm": 98, "length_cm": 42}
+    },
+    "fit": "Ajustado",
+    "fabric": "Cuero sintético 100%",
+    "model_reference": {"height_cm": 173, "wearing_size": "S"},
+    "colors": ["negro", "marrón", "blanco"]
+  },
+  {
+    "product_id": "P018",
+    "name": "Polo Clásico",
+    "category": "polos",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 84, "waist_cm": 68, "length_cm": 58},
+      "S": {"bust_cm": 88, "waist_cm": 72, "length_cm": 59},
+      "M": {"bust_cm": 92, "waist_cm": 76, "length_cm": 60},
+      "L": {"bust_cm": 96, "waist_cm": 80, "length_cm": 61},
+      "XL": {"bust_cm": 100, "waist_cm": 84, "length_cm": 62}
+    },
+    "fit": "Regular",
+    "fabric": "Piqué de Algodón 100%",
+    "model_reference": {"height_cm": 170, "wearing_size": "M"},
+    "colors": ["blanco", "negro", "azul marino", "rosa"]
+  },
+  {
+    "product_id": "P019",
+    "name": "Abrigo de Lana",
+    "category": "abrigos",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"bust_cm": 90, "waist_cm": 72, "length_cm": 95, "sleeve_cm": 60},
+      "S": {"bust_cm": 94, "waist_cm": 76, "length_cm": 96, "sleeve_cm": 61},
+      "M": {"bust_cm": 98, "waist_cm": 80, "length_cm": 97, "sleeve_cm": 62},
+      "L": {"bust_cm": 102, "waist_cm": 84, "length_cm": 98, "sleeve_cm": 63},
+      "XL": {"bust_cm": 106, "waist_cm": 88, "length_cm": 99, "sleeve_cm": 64}
+    },
+    "fit": "Oversized",
+    "fabric": "Lana 80%, Poliéster 20%",
+    "model_reference": {"height_cm": 175, "wearing_size": "M"},
+    "colors": ["gris", "beige", "negro", "azul marino"]
+  },
+  {
+    "product_id": "P020",
+    "name": "Leggings Deportivos",
+    "category": "leggings",
+    "available_sizes": ["XS", "S", "M", "L", "XL"],
+    "size_chart": {
+      "XS": {"waist_cm": 62, "hips_cm": 84, "inseam_cm": 68, "length_cm": 90},
+      "S": {"waist_cm": 66, "hips_cm": 88, "inseam_cm": 70, "length_cm": 92},
+      "M": {"waist_cm": 70, "hips_cm": 92, "inseam_cm": 72, "length_cm": 94},
+      "L": {"waist_cm": 74, "hips_cm": 96, "inseam_cm": 74, "length_cm": 96},
+      "XL": {"waist_cm": 78, "hips_cm": 100, "inseam_cm": 76, "length_cm": 98}
+    },
+    "fit": "Ajustado",
+    "fabric": "Poliamida 88%, Elastano 12%",
+    "model_reference": {"height_cm": 172, "wearing_size": "S"},
+    "colors": ["negro", "gris", "azul marino", "rosa"]
+  }
+]

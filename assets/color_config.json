@@ -1,0 +1,87 @@
+{
+  "color_palette": {
+    "blanco": [
+      255,
+      255,
+      255
+    ],
+    "negro": [
+      0,
+      0,
+      0
+    ],
+    "gris": [
+      128,
+      128,
+      128
+    ],
+    "azul marino": [
+      25,
+      25,
+      112
+    ],
+    "azul": [
+      0,
+      100,
+      200
+    ],
+    "azul claro": [
+      173,
+      216,
+      230
+    ],
+    "rosa": [
+      255,
+      182,
+      193
+    ],
+    "verde": [
+      0,
+      128,
+      0
+    ],
+    "rojo": [
+      255,
+      0,
+      0
+    ],
+    "amarillo": [
+      255,
+      255,
+      0
+    ],
+    "beige": [
+      245,
+      245,
+      220
+    ],
+    "crema": [
+      255,
+      253,
+      208
+    ],
+    "burdeos": [
+      128,
+      0,
+      32
+    ],
+    "gris melange": [
+      169,
+      169,
+      169
+    ],
+    "gris antracita": [
+      47,
+      79,
+      79
+    ]
+  },
+  "fabric_textures": {
+    "algod\u00f3n": "smooth",
+    "lana": "textured",
+    "seda": "shiny",
+    "lino": "rough",
+    "poli\u00e9ster": "smooth",
+    "denim": "textured"
+  }
+}

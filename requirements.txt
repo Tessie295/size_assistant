@@ -5,3 +5,9 @@ numpy
 python-dotenv
 scikit-learn
 sentence-transformers
+Pillow
+opencv-python
+matplotlib
+scipy
+imageio
+webcolors

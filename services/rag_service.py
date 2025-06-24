@@ -5,7 +5,7 @@ from data.data_loader import DataLoader
 
 
 class RAGService:
-    """Recuperación de información con ayuda del contexto - RAG."""
+    """Servicio para recuperar información relevante del contexto."""
     
     def __init__(self, data_loader: DataLoader):
         """
@@ -16,25 +16,21 @@ class RAGService:
         """
         self.data_loader = data_loader
         
-        # Patrones para identificar entidades en las consultas
+        # Patrones mejorados para identificar entidades
         self.product_patterns = [
-            r'producto\s+([A-Z]\d+)',
-            r'P(\d+)',
-            r'abrigo',
-            r'prenda',
-            r'producto',
-            r'camisa',
-            r'pantalón',
-            r'vestido'
+            r'\bP(\d{3})\b',  # P001, P002, etc.
+            r'\bP(\d{1,2})\b',  # P1, P2, etc.
+            r'producto\s+P(\d+)',
+            r'product\s*(\d+)',
         ]
         
         self.client_patterns = [
-            r'cliente\s+([A-Z]\d+)',
-            r'C(\d+)',
-            r'user(\d+)',
+            r'\bC(\d{4})\b',  # C0001, C0002, etc.
+            r'\bC(\d{1,3})\b',  # C1, C01, etc.
+            r'cliente\s+C(\d+)',
+            r'client\s+C(\d+)',
+            r'\bUser(\d+)\b',  # User1, User2, etc.
             r'usuario\s+(\d+)',
-            r'mi\s+perfil',
-            r'para\s+mí'
         ]
         
         # Palabras clave para diferentes tipos de consultas
@@ -46,6 +42,18 @@ class RAGService:
         self.search_keywords = [
             'buscar', 'encontrar', 'ver', 'mostrar', 'listar',
             'qué productos', 'cuáles productos', 'productos disponibles'
+        ]
+        
+        # Palabras clave visuales
+        self.visual_keywords = [
+            'muestra', 'enseña', 'ver', 'imagen', 'visual', 'visualizar',
+            'cómo se ve', 'como queda', 'genera', 'avatar'
+        ]
+        
+        # Palabras de continuación de conversación
+        self.continuation_keywords = [
+            'si', 'sí', 'yes', 'vale', 'ok', 'okay', 'perfecto',
+            'claro', 'por favor', 'hazlo', 'genéralo', 'muéstralo'
         ]
     
     def parse_query(self, query: str) -> Dict[str, any]:
@@ -65,7 +73,9 @@ class RAGService:
             'product_ids': self._extract_product_ids(query),
             'client_ids': self._extract_client_ids(query),
             'keywords': self._extract_keywords(query_lower),
-            'original_query': query
+            'original_query': query,
+            'has_visual_intent': any(keyword in query_lower for keyword in self.visual_keywords),
+            'is_continuation': self._is_continuation_query(query_lower)
         }
         
         return result
@@ -84,36 +94,225 @@ class RAGService:
             'clients': [],
             'products': [],
             'intent': parsed_query['intent'],
-            'confidence': 0.0
+            'confidence': 0.0,
+            'has_visual_intent': parsed_query.get('has_visual_intent', False),
+            'is_continuation': parsed_query.get('is_continuation', False)
         }
         
         # Recuperar clientes
-        if parsed_query['client_ids']:
-            for client_id in parsed_query['client_ids']:
-                client = self.data_loader.get_client(client_id)
-                if client:
-                    context['clients'].append(client)
-                    context['confidence'] += 0.3
+        client_ids = parsed_query['client_ids']
+        print(f"🔍 Buscando clientes: {client_ids}")
+        
+        for client_id in client_ids:
+            client = self.data_loader.get_client(client_id)
+            if client:
+                context['clients'].append(client)
+                context['confidence'] += 0.3
+                print(f"✅ Cliente encontrado: {client_id} - {client.name}")
+            else:
+                print(f"❌ Cliente no encontrado: {client_id}")
         
         # Recuperar productos
-        if parsed_query['product_ids']:
-            for product_id in parsed_query['product_ids']:
-                product = self.data_loader.get_product(product_id)
-                if product:
-                    context['products'].append(product)
-                    context['confidence'] += 0.3
+        product_ids = parsed_query['product_ids']
+        print(f"🔍 Buscando productos: {product_ids}")
+        
+        for product_id in product_ids:
+            product = self.data_loader.get_product(product_id)
+            if product:
+                context['products'].append(product)
+                context['confidence'] += 0.3
+                print(f"✅ Producto encontrado: {product_id} - {product.name}")
+            else:
+                print(f"❌ Producto no encontrado: {product_id}")
         
         # Si no hay IDs específicos, buscar por palabras clave
-        if not context['products'] and parsed_query['keywords']:
+        if not context['products'] and parsed_query['keywords'] and parsed_query['intent'] == 'product_search':
             search_terms = ' '.join(parsed_query['keywords'])
-            found_products = self.data_loader.search_products(search_terms, limit=5)
+            found_products = self.data_loader.search_products(search_terms, limit=10)
             context['products'].extend(found_products)
             context['confidence'] += 0.2 if found_products else 0.0
+            print(f"🔍 Búsqueda por palabras clave '{search_terms}': {len(found_products)} productos")
+        
+        # Búsqueda específica por características de productos
+        if not context['products'] and parsed_query['intent'] == 'product_search':
+            # Buscar por ajuste específico
+            query_lower = parsed_query['original_query'].lower()
+            
+            # Buscar productos por ajuste
+            fit_terms = ['slim', 'regular', 'oversized', 'loose', 'tailored']
+            for fit_term in fit_terms:
+                if fit_term in query_lower:
+                    matching_products = [p for p in self.data_loader.get_all_products() 
+                                       if fit_term.lower() in p.fit.lower()]
+                    context['products'].extend(matching_products[:10])
+                    context['confidence'] += 0.3
+                    print(f"🔍 Búsqueda por ajuste '{fit_term}': {len(matching_products)} productos")
+                    break
+            
+            # Buscar por material
+            fabric_terms = ['cotton', 'wool', 'linen', 'polyester', 'blend', 'algodón', 'lana']
+            for fabric_term in fabric_terms:
+                if fabric_term in query_lower and not context['products']:
+                    matching_products = [p for p in self.data_loader.get_all_products() 
+                                       if fabric_term.lower() in p.fabric.lower()]
+                    context['products'].extend(matching_products[:10])
+                    context['confidence'] += 0.3
+                    print(f"🔍 Búsqueda por material '{fabric_term}': {len(matching_products)} productos")
+                    break
         
         # Ajustar confianza
         context['confidence'] = min(1.0, context['confidence'])
         
+        print(f"📊 Contexto final: {len(context['clients'])} clientes, {len(context['products'])} productos")
+        
         return context
+    
+    def _identify_intent(self, query: str) -> str:
+        """Identifica la intención de la consulta."""
+        # Primero verificar si es una continuación de conversación
+        if self._is_continuation_query(query):
+            return 'size_recommendation'  # Asumir que quiere continuar con recomendación
+        
+        # Verificar si es una búsqueda de productos (más específico)
+        if any(keyword in query for keyword in self.search_keywords):
+            return 'product_search'
+        
+        # Patrones específicos de búsqueda de productos
+        search_patterns = [
+            r'productos?\s+(con|de|que)',  # "productos con", "productos de"
+            r'busca\w*\s+productos?',     # "buscar productos"
+            r'encuentra?\w*\s+productos?', # "encontrar productos"
+            r'muestra\w*\s+productos?',   # "mostrar productos"
+            r'lista\w*\s+productos?',     # "listar productos"
+            r'qué productos?',            # "qué productos"
+            r'cuáles? productos?',        # "cuáles productos"
+        ]
+        
+        for pattern in search_patterns:
+            if re.search(pattern, query, re.IGNORECASE):
+                return 'product_search'
+        
+        # Si menciona características de productos sin cliente específico, es búsqueda
+        if any(keyword in query for keyword in ['ajuste', 'material', 'fabric', 'fit', 'slim', 'regular', 'oversized', 'loose', 'tailored']):
+            # Solo si no hay un cliente específico mencionado
+            if not self._extract_client_ids(query):
+                return 'product_search'
+        
+        if any(keyword in query for keyword in self.size_keywords):
+            return 'size_recommendation'
+        elif any(keyword in query for keyword in self.visual_keywords):
+            return 'size_recommendation'  # Visual también implica recomendación
+        elif 'ayuda' in query or 'help' in query:
+            return 'help'
+        else:
+            return 'general'
+    
+    def _is_continuation_query(self, query: str) -> bool:
+        """Verifica si la consulta es una continuación de conversación."""
+        query_clean = query.strip().lower()
+        
+        # Consultas muy cortas que suelen ser continuaciones
+        if len(query_clean) <= 10 and any(keyword in query_clean for keyword in self.continuation_keywords):
+            return True
+        
+        # Patrones específicos de continuación
+        continuation_patterns = [
+            r'^(si|sí|yes|vale|ok|okay)\s*$',
+            r'^(por favor|hazlo|genéralo|muéstralo)$',
+            r'^(claro|perfecto|correcto)$'
+        ]
+        
+        for pattern in continuation_patterns:
+            if re.match(pattern, query_clean):
+                return True
+        
+        return False
+    
+    def _extract_product_ids(self, query: str) -> List[str]:
+        """Extrae IDs de productos de la consulta."""
+        product_ids = []
+        
+        for pattern in self.product_patterns:
+            matches = re.findall(pattern, query, re.IGNORECASE)
+            for match in matches:
+                # Normalizar ID del producto
+                if match.isdigit():
+                    # Formatear con ceros a la izquierda si es necesario
+                    if len(match) == 1:
+                        product_id = f"P00{match}"
+                    elif len(match) == 2:
+                        product_id = f"P0{match}"
+                    elif len(match) == 3:
+                        product_id = f"P{match}"
+                    else:
+                        product_id = f"P{match}"
+                else:
+                    product_id = f"P{match}"
+                
+                if product_id not in product_ids:
+                    product_ids.append(product_id)
+        
+        return product_ids
+    
+    def _extract_client_ids(self, query: str) -> List[str]:
+        """Extrae IDs de clientes de la consulta."""
+        client_ids = []
+        
+        for pattern in self.client_patterns:
+            matches = re.findall(pattern, query, re.IGNORECASE)
+            for match in matches:
+                # Normalizar ID del cliente
+                if match.isdigit():
+                    # Para User1, User2, etc.
+                    if 'user' in pattern.lower():
+                        # Mapear User1 -> C0001, User2 -> C0002, etc.
+                        user_num = int(match)
+                        if user_num <= 100:  # Límite razonable
+                            client_id = f"C{user_num:04d}"
+                        else:
+                            continue
+                    else:
+                        # Formatear con ceros a la izquierda
+                        if len(match) == 1:
+                            client_id = f"C000{match}"
+                        elif len(match) == 2:
+                            client_id = f"C00{match}"
+                        elif len(match) == 3:
+                            client_id = f"C0{match}"
+                        elif len(match) == 4:
+                            client_id = f"C{match}"
+                        else:
+                            client_id = f"C{match}"
+                else:
+                    client_id = f"C{match}"
+                
+                if client_id not in client_ids:
+                    client_ids.append(client_id)
+        
+        return client_ids
+    
+    def _extract_keywords(self, query: str) -> List[str]:
+        """Extrae palabras clave relevantes de la consulta."""
+        # Palabras clave relacionadas con ropa y ajuste
+        clothing_keywords = [
+            'abrigo', 'camisa', 'pantalón', 'vestido', 'blusa', 'falda',
+            'chaqueta', 'suéter', 'jersey', 'camiseta', 'polo',
+            'algodón', 'lana', 'lino', 'poliéster', 'seda',
+            'slim', 'regular', 'loose', 'oversized', 'tailored',
+            'ajustado', 'holgado', 'entallado',
+            'azul', 'rojo', 'verde', 'negro', 'blanco', 'gris', 'rosa',
+            'cotton', 'wool', 'blend', 'polyester'
+        ]
+        
+        found_keywords = []
+        words = query.split()
+        
+        for word in words:
+            clean_word = re.sub(r'[^\w]', '', word.lower())
+            if clean_word in clothing_keywords:
+                found_keywords.append(clean_word)
+        
+        return found_keywords
     
     def find_similar_clients(self, target_client: Client, limit: int = 3) -> List[Tuple[Client, float]]:
         """
@@ -180,80 +379,6 @@ class RAGService:
         
         return relevant_purchases
     
-    def _identify_intent(self, query: str) -> str:
-        """Identifica la intención de la consulta."""
-        if any(keyword in query for keyword in self.size_keywords):
-            return 'size_recommendation'
-        elif any(keyword in query for keyword in self.search_keywords):
-            return 'product_search'
-        elif 'ayuda' in query or 'help' in query:
-            return 'help'
-        else:
-            return 'general'
-    
-    def _extract_product_ids(self, query: str) -> List[str]:
-        """Extrae IDs de productos de la consulta."""
-        product_ids = []
-        
-        for pattern in self.product_patterns:
-            matches = re.findall(pattern, query, re.IGNORECASE)
-            for match in matches:
-                if isinstance(match, tuple):
-                    match = match[0] if match else ""
-                
-                # Normalizar ID del producto
-                if match.isdigit():
-                    product_id = f"P{match.zfill(3)}"
-                else:
-                    product_id = match.upper()
-                
-                if product_id not in product_ids:
-                    product_ids.append(product_id)
-        
-        return product_ids
-    
-    def _extract_client_ids(self, query: str) -> List[str]:
-        """Extrae IDs de clientes de la consulta."""
-        client_ids = []
-        
-        for pattern in self.client_patterns:
-            matches = re.findall(pattern, query, re.IGNORECASE)
-            for match in matches:
-                if isinstance(match, tuple):
-                    match = match[0] if match else ""
-                
-                # Normalizar ID del cliente
-                if match.isdigit():
-                    client_id = f"C{match.zfill(4)}"
-                else:
-                    client_id = match.upper()
-                
-                if client_id not in client_ids:
-                    client_ids.append(client_id)
-        
-        return client_ids
-    
-    def _extract_keywords(self, query: str) -> List[str]:
-        """Extrae palabras clave relevantes de la consulta."""
-        # Palabras clave relacionadas con ropa y ajuste
-        clothing_keywords = [
-            'abrigo', 'camisa', 'pantalón', 'vestido', 'blusa', 'falda',
-            'chaqueta', 'suéter', 'jersey', 'camiseta', 'polo',
-            'algodón', 'lana', 'lino', 'poliéster', 'seda',
-            'slim', 'regular', 'loose', 'oversized', 'tailored',
-            'ajustado', 'holgado', 'entallado'
-        ]
-        
-        found_keywords = []
-        words = query.split()
-        
-        for word in words:
-            clean_word = re.sub(r'[^\w]', '', word.lower())
-            if clean_word in clothing_keywords:
-                found_keywords.append(clean_word)
-        
-        return found_keywords
-    
     def _calculate_client_similarity(self, client1: Client, client2: Client) -> float:
         """Calcula similitud entre dos clientes."""
         # Similitud de medidas corporales (peso: 50%)
@@ -305,7 +430,6 @@ class RAGService:
             similarity += 0.3
         
         # Similitud en tabla de tallas (peso bajo)
-        # Comparar talla M como referencia
         try:
             m1 = product1.size_chart.M
             m2 = product2.size_chart.M
